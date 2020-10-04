@@ -9,3 +9,6 @@ Steps to run the project
       -> after all the devepencies are installed 'npm start'
       
   2. The layout is made for mobile devices.
+      ->  I have removed all the warings from the terminal so you can view the On Your Network url to directly access the project on mobile browsers
+  
+  

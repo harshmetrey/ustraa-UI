@@ -5,8 +5,8 @@ import { Star } from '@material-ui/icons'
 
 export const ProductLists = (props) => {
 
-    const [productCount, SetproductCount] = useState(6);
-    const [width, setWidth] = useState(window.innerWidth); // eslint-disable-next-line
+    const [productCount, SetproductCount] = useState(6); // eslint-disable-next-line
+    const [width, setWidth] = useState(window.innerWidth);
     const [count, setCount] = useState();
     const [imageSize, setImageSize] = useState("x60");
 

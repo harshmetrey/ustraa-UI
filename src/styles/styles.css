@@ -17,9 +17,11 @@
 
 .tab-container img {
   border-radius: 5px;
+  cursor:  pointer;
 }
 
 .centered-text {
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;

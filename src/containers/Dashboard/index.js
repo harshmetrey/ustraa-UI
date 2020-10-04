@@ -53,7 +53,7 @@ class Dashboard extends Component {
                 <Box padding={2}>
                     <Typography>Our Products</Typography>
                 </Box>
-                <CategoryLists data={categoryList} handleCatogoryChange={this.handleCatogoryChange} />
+                <CategoryLists data={categoryList} handleCatogoryChange={this.handleCatogoryChange} category={SelectedCategory}/>
                 <ProductLists data={ProductList && ProductList.products} count={ProductList.count} category={SelectedCategory} ListRenderText={listStatus} />
                 {SelectedCategory && <FooterActionBar category={SelectedCategory} handleListRender={this.handleListRender} menuItems={categoryList} handleCatogoryChange={this.handleCatogoryChange}/>}
             </div>

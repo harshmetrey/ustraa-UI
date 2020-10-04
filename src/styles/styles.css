@@ -1,0 +1,108 @@
+.category-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+
+
+.tab-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.tab-container img {
+  border-radius: 5px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.MuiButton-containedPrimary {
+  background-color: rgb(79, 207, 100) !important;
+}
+
+.Mui-disabled {
+  background-color: #b0b0b0 !important;
+  color: #fff !important;
+}
+
+.ui-border-bottom {
+  border-bottom: solid 1px #f0f0f0;
+}
+
+
+.footer-container {
+  width: 94%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+  height: 55px;
+}
+
+.footer-category-container {
+  color: rgba(0, 0, 0, 0.87);
+  height: 56px;
+  line-height: 56px;
+  overflow: hidden;
+  opacity: 1;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-overflow: ellipsis;
+  top: -4px;
+  white-space: nowrap;
+  z-index: 2;
+  font-weight: 500;
+}
+
+.footer-container span.category-text {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+ul.MuiList-root {
+  min-width: 500px;
+}
+
+
+
+.rating-text {
+  color: #757575;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 2px;
+}
+
+.rating-text svg {  
+  font-size: 13px;
+}

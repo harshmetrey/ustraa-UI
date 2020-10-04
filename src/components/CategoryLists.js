@@ -7,7 +7,7 @@ export const CategoryLists = (props) => {
                 return (
                     <div className="tab-container" onClick={() => props.handleCatogoryChange(item.category_id,item.category_name)} key={item.category_id}>
                         <img src={item.category_image} width={120} alt={item.category_name} />
-                        <div className="centered-text">{item.category_name}</div>
+                        <div className={props.category === item.category_name ? 'centered-text text-bold' : 'centered-text'}>{item.category_name}</div>
                     </div>
                 )
             })}

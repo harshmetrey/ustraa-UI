@@ -60,6 +60,7 @@ export const FooterActionBar = (props) => {
                         <Menu
                             id="simple-menu"
                             anchorEl={anchorEl}
+                            variant="selectedMenu"
                             keepMounted
                             open={Boolean(anchorEl)}
                             onClose={handleClose}
@@ -67,7 +68,12 @@ export const FooterActionBar = (props) => {
                         >
                             {props && props.menuItems.map(item => {
                                 return (
-                                    <MenuItem key={item.id} onClick={() => handleSelect(item)}>{item.category_name}</MenuItem>
+                                    <MenuItem key={item.id} 
+                                    selected={item.category_name === props.category}
+                                    onClick={() => handleSelect(item)}
+                                    >
+                                    {item.category_name}
+                                    </MenuItem>
 
                                 )
                             })}
